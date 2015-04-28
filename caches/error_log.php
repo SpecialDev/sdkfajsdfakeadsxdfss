@@ -282,3 +282,12 @@
 <?php exit;?>04-02 19:52:35 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
 <?php exit;?>04-02 19:53:31 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
 <?php exit;?>04-02 19:53:31 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>04-28 23:32:28 | 2 | mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>04-28 23:32:28 | 2 | mysql_error() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 388
+<?php exit;?>04-28 23:32:28 | 2 | mysql_errno() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 392
+<?php exit;?>04-28 23:32:28 | 2 | mysql_errno() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 392
+<?php exit;?>04-28 23:32:28 | 2 | mysql_error() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 388
+<?php exit;?>04-28 23:32:50 | 2 | Illegal string offset 'enablehits' | phpcms\modules\poster\index.php | 104
+<?php exit;?>04-28 23:33:38 | 2 | Illegal string offset 'enablehits' | phpcms\modules\poster\index.php | 104
+<?php exit;?>04-29 00:51:29 | 8192 | Function split() is deprecated | caches\caches_model\caches_data\content_update.class.php | 70
+<?php exit;?>04-29 00:53:13 | 8192 | Function split() is deprecated | caches\caches_model\caches_data\content_update.class.php | 70

@@ -6,7 +6,7 @@ return array (
 		'port' => 3306,
 		'database' => 'phpcmsv9',
 		'username' => 'root',
-		'password' => '123456',
+		'password' => 'wh_123',
 		'tablepre' => 'v9_',
 		'charset' => 'utf8',
 		'type' => 'mysql',
