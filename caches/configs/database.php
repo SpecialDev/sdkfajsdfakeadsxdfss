@@ -4,7 +4,7 @@ return array (
 	'default' => array (
 		'hostname' => 'localhost',
 		'port' => 3306,
-		'database' => 'phpcmsv9',
+		'database' => 'bairong',
 		'username' => 'root',
 		'password' => '123456',
 		'tablepre' => 'v9_',

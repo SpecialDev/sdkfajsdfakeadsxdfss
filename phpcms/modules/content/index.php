@@ -45,7 +45,7 @@ class index {
 		$siteids = getcache('category_content','commons');
 		$siteid = $siteids[$catid];
 		$CATEGORYS = getcache('category_content_'.$siteid,'commons');
-		
+                
 		if(!isset($CATEGORYS[$catid]) || $CATEGORYS[$catid]['type']!=0) showmessage(L('information_does_not_exist'),'blank');
 		$this->category = $CAT = $CATEGORYS[$catid];
 		$this->category_setting = $CAT['setting'] = string2array($this->category['setting']);

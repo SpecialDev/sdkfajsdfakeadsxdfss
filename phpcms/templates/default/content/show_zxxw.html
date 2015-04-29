@@ -1,0 +1,14 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}/news.css"/>
+
+<div class="del-t clearfix"><a href="/?m=content&c=news">&lt; 返回新闻列表</a></div>
+	<!-- start 列表部分 -->
+	<h1 class="deltit">{$title}</h1>
+	<div class="author">Posted on 2014 年 11 月 19 日 by {$username}</div>
+	<p class="article">
+                {$content}
+        </p>
+	<!-- end 列表部分 -->
+</div>
+
+{template "content","footer"}

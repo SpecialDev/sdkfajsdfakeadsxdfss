@@ -105,7 +105,7 @@ final class mysql {
 		$order = $order == '' ? '' : ' ORDER BY '.$order;
 		$group = $group == '' ? '' : ' GROUP BY '.$group;
 		$limit = $limit == '' ? '' : ' LIMIT '.$limit;
-		$field = explode(',', $data);
+		$field = explode(',', $data);                
 		array_walk($field, array($this, 'add_special_char'));
 		$data = implode(',', $field);
 

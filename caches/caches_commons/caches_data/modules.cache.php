@@ -10,13 +10,12 @@ return array (
     'description' => '',
     'setting' => 'array (
   \'admin_email\' => \'phpcms@phpcms.cn\',
-  \'adminaccessip\' => \'0\',
   \'maxloginfailedtimes\' => \'8\',
-  \'maxiplockedtime\' => \'15\',
   \'minrefreshtime\' => \'2\',
   \'mail_type\' => \'1\',
   \'mail_server\' => \'smtp.qq.com\',
   \'mail_port\' => \'25\',
+  \'category_ajax\' => \'0\',
   \'mail_user\' => \'phpcms.cn@foxmail.com\',
   \'mail_auth\' => \'1\',
   \'mail_from\' => \'phpcms.cn@foxmail.com\',
@@ -314,8 +313,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'comment' => 
   array (
@@ -328,8 +327,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'link' => 
   array (
@@ -400,8 +399,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'poster' => 
   array (
@@ -414,8 +413,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'formguide' => 
   array (
@@ -447,8 +446,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'upgrade' => 
   array (
@@ -475,8 +474,8 @@ return array (
     'setting' => '',
     'listorder' => '0',
     'disabled' => '0',
-    'installdate' => '2015-04-02',
-    'updatedate' => '2015-04-02',
+    'installdate' => '2015-04-27',
+    'updatedate' => '2015-04-27',
   ),
   'sms' => 
   array (

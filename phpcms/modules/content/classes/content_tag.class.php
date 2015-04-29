@@ -34,7 +34,7 @@ class content_tag {
 	 * @param $data
 	 */
 	public function count($data) {
-		if($data['action'] == 'lists') {
+		if(in_array($data['action'],array('lists','newslist'))) {
 			$catid = intval($data['catid']);
 			if(!$this->set_modelid($catid)) return false;
 			if(isset($data['where'])) {
@@ -301,5 +301,18 @@ class content_tag {
 			),
 				
 		);
-	}
+	}       
+        public function newslist($data){
+            
+            
+            
+            $this->db->table_name = $this->db->db_tablepre.'information_news';
+            
+            $data = $this->db->select('','title,inputtime,url',$data['limit'],' inputtime desc '); //array('title','inputtime')
+            
+            
+            return $data;
+            //print_r($data); die; 
+        }
+        
 }

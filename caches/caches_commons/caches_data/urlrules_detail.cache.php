@@ -72,5 +72,14 @@ return array (
     'urlrule' => 'list-{$catid}-{$page}.html',
     'example' => 'list-1-1.html',
   ),
+  31 => 
+  array (
+    'urlruleid' => '31',
+    'module' => 'content',
+    'file' => 'show',
+    'ishtml' => '0',
+    'urlrule' => 'index.php?m=content&c=news&a=show&catid={$catid}&id={$id}|index.php?m=content&c=news&a=show&catid={$catid}&id={$id}&page={$page}',
+    'example' => 'index.php?m=content&c=news&a=show&catid=1&id=1',
+  ),
 );
 ?>

@@ -1,0 +1,52 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}/news.css"/>
+	
+	<!-- start 列表部分 -->
+	<dl class="dl-list clearfix">
+		<dt><span>新闻资讯</span><em>NEWS</em></dt>
+                
+                
+                
+                {pc:content action="newslist" catid="9" num="15" page="$page" } 
+                    {if $data}
+                        {loop $data $r}
+                        <dd>
+                            <a href="###" class="st">【公司动态】</a>
+                            <a href="{$r['url']}" class="at">{$r['title']}</a>
+                            <span class="time">{php echo date('Y-m-d',$r['inputtime']);}</span>
+                        </dd>
+                        {/loop}
+                    {/if}
+                {/pc}
+                
+                
+                
+	</dl>
+         
+	<script type="text/javascript">
+		$('.dl-list dd').each(function(i,e){if((i+1)%5===0){$(e).addClass('br');}});
+	</script>
+	<!-- end 列表部分 -->
+	<div class="page">
+            
+{php $pages = pages_new($content_total, $page, $pagesize, "?m=content&c=news&page={\$page}"); echo $pages;}
+
+<!--
+		<a href="###" class="on">1</a>
+		<a href="###">2</a>
+		<a href="###">3</a>
+		<a href="###">4</a>
+		<a href="###">5</a>
+		<a href="###">6</a>
+		<a href="###">7</a>
+		<a href="###">8</a>
+		<a href="###">9</a>
+		<a href="###">10</a>
+		<a href="###">下一页</a>
+-->
+	</div>
+
+
+</div>
+<!-- end 外框 -->
+{template "content","footer"}
